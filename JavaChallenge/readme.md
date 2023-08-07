@@ -9,12 +9,6 @@ Approach:
 The approach taken in the code is a simple iterative method to reverse the array. It initializes a new array called result of the same size as the input array and then iterates through the input array, placing the elements in reverse order into the result array.
 Efficiency:
 
-Time Complexity: O(n)
-
-The time complexity is O(n), where n is the number of elements in the input array. The function iterates through the entire input array once, performing constant-time operations in each iteration. Hence, the time complexity is linear.
-Space Complexity: O(n)
-
-The space complexity is O(n) as well. The function creates a new array result of the same size as the input array to store the reversed elements. The space used is directly proportional to the number of elements in the input array.
 
 ## Solution
 
@@ -41,3 +35,7 @@ public class Main {
         return result;
     }
 }
+
+on this code i invoke the function reverseArray on main and sending an array to it , then store the calling of the array inside intrger array then print it using the Class Array with method **.toString()** It is used here to convert an array into a human-readable string representation.
+
+on the function itself, we just create variable called arrayLength and store a length of array inside this variable, then i create a new array to store the result inside it and this array have the same length of array send as parameter, then i using a loop to looping inside array index by index, then give the resulte array of index **[arrayLength - i - 1]** (thats mean the last element of array) a value of array of index 0 . 
