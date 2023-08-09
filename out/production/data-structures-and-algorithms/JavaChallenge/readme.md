@@ -2,7 +2,7 @@
 in this challenge we just deifined a function called **reverseArray** which takes an array as an argument and return an array with elements in reversed order.
 
 ## Whiteboard Process
-[Whiteboard](../assest/Screenshot%20(394).png)
+[Whiteboard](./Assest/Screenshot%20(383).png)
 
 ## Approach & Efficiency
 Approach:
@@ -12,6 +12,17 @@ Efficiency:
 
 ## Solution
 
+package JavaChallenge;
+
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) 
+    {
+        int testArray[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int[] reversedArray = reverseArray(testArray);
+        System.out.println(Arrays.toString(reversedArray));
+    }
     public static int[] reverseArray(int array[])
     {
         int arrayLength = array.length;
@@ -23,7 +34,7 @@ Efficiency:
 
         return result;
     }
-
+}
 
 on this code i invoke the function reverseArray on main and sending an array to it , then store the calling of the array inside intrger array then print it using the Class Array with method **.toString()** It is used here to convert an array into a human-readable string representation.
 
