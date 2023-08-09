@@ -2,7 +2,7 @@
 in this challenge we just deifined a function called **reverseArray** which takes an array as an argument and return an array with elements in reversed order.
 
 ## Whiteboard Process
-[Whiteboard](../assest/Screenshot%20(394).png)
+[Whiteboard](./Screenshot%20(394).png)
 
 ## Approach & Efficiency
 Approach:
